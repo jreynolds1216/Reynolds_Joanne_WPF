@@ -28,9 +28,9 @@ console.log("Each person ate" + " " + numberOfSlicesPerPerson + " " + "slices of
 
 //Calculate the number of slices Sparky gets after the slices are divided up evenly among the human guests.
 
-var slicesPerPizza = 8;
-var numberOfPeople = 10;
-var numberOfPizzas = 4;
+var slicesPerPizza = 10;
+var numberOfPeople = 9;
+var numberOfPizzas = 5;
 
 //Multiply the number of pizzas by the number of slices then use modulo to show the remainder that Sparky will get.
 var numberOfSlicesForSparky = numberOfPizzas * slicesPerPizza % numberOfPeople;
