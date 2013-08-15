@@ -2,7 +2,7 @@
 
 //Calculate Sparky's age in dog years
 
-var ageInHumanYears = 5;
+var ageInHumanYears = 2;
 //Multiply age in humans years times 7.
 var ageInDogYears = ageInHumanYears * 7;
 
