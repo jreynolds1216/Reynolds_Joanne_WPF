@@ -55,10 +55,10 @@ console.log("You have spent a total of $" + total + " " + "on groceries over 5 w
 
 //Calculate the price of an item with and without tax after a discount is applied.
 
-var originalPrice = 10;
-var discountPercentage = 10;
+var originalPrice = 20;
+var discountPercentage = 20;
 var itemName = "Dining" + " " + "Table";
-var salesTax = 10;
+var salesTax = 20;
 
 //Multiply discount by original price to get amount of discount.
 var itemDiscount = originalPrice * (discountPercentage * 0.01);
