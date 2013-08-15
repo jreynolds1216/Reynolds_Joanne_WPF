@@ -13,9 +13,9 @@ console.log("Sparky is" + " " + ageInHumanYears + " " + "human years old which i
 
 //Calculate the number of slices of pizza each person can have at the party.
 
-var slicesPerPizza = 8;
-var numberOfPeople = 4;
-var numberOfPizzas = 1;
+var slicesPerPizza = 10;
+var numberOfPeople = 5;
+var numberOfPizzas = 5;
 
 //Multiply the number of pizzas by the number of slices then divide by the number of people at the party.
 var numberOfSlicesPerPerson = numberOfPizzas * slicesPerPizza / numberOfPeople;
