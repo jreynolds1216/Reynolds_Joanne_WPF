@@ -50,3 +50,25 @@ var average = total / 5;
 //Calculate the output total of the 5 weeks of grocery bills and the average of grocery bills over the last 5 weeks.
 console.log("You have spent a total of $" + total + " " + "on groceries over 5 weeks. That is an average of $" + average + " " + "per week.")
 
+
+
+
+//Calculate the price of an item with and without tax after a discount is applied.
+
+var originalPrice = 10;
+var discountPercentage = 10;
+var itemName = "Dining" + " " + "Table";
+var salesTax = 10;
+
+//Multiply discount by original price to get amount of discount.
+var itemDiscount = originalPrice * (discountPercentage * 0.01);
+//Subtract amount of discount from original price to get discounted price.
+var priceAfterDiscount = originalPrice - itemDiscount;
+//Multiply sales tax by price after discount to get amount of sales tax.
+var totalSalesTax = priceAfterDiscount * (salesTax * 0.01);
+//Add sales tax to discounted price to get total price with sales tax. You can skip this step for price without sales tax.
+var finalItemPrice = priceAfterDiscount + totalSalesTax;
+
+console.log("Your" + " " + itemName + " " + "was originally $" + originalPrice + "," + " " + "but after a" + " " + discountPercentage + "%" + " " + "discount, it is now $" + priceAfterDiscount + " " + "without tax, and $" + finalItemPrice + " " + "with tax.");
+
+
