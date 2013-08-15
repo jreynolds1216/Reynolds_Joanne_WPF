@@ -41,7 +41,7 @@ console.log("Sparky got" + " " + numberOfSlicesForSparky + " " + "slices of pizz
 
 
 //Calculate the average you have spent on groceries over the last 5 weeks.
-var groceryBills = [110, 95, 98, 107, 101];
+var groceryBills = [220, 175, 193, 216, 202];
 //Add all of the bills from the last 5 weeks together to get a total.
 var total = groceryBills[0] + groceryBills[1] +groceryBills[2] + groceryBills[3] + groceryBills[4];
 //Divide the total from the last 5 weeks by 5 to get the average.
