@@ -17,4 +17,5 @@ var numberOfCansNeeded = cats*cansOfFood*numberOfDays;
 //Added an alert showing the user the total number of cans needed.
 alert("You need" + " " + numberOfCansNeeded + " " + "cans of food to feed the cats for" + " " + numberOfDays + " " + "days.")
 
+//Added a message with the answer for the console.
 console.log("You need" + " " + numberOfCansNeeded + " " + "cans of food to feed the cats for" + " " + numberOfDays + " " + "days.")
