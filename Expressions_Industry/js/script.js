@@ -15,3 +15,9 @@ var numberOfHours = prompt("Please enter the number of hours the technicians hav
 //I added a line to calculate the number of jobs each tech needs to do per hour. It is the number of jobs divided by number of hours they have then divided by the number of techs available.
 var numberOfJobsPerHour = numberOfJobs/numberOfHours/numberOfTechs;
 
+alert("The technicians need to do" + " " + numberOfJobsPerHour + " " + "jobs per hour.");
+
+
+
+
+
