@@ -12,5 +12,6 @@ var numberOfJobs = prompt("Please enter the number of jobs that need to be done:
 //I added a prompt to enter how many hours the techs have to get all of the jobs done.
 var numberOfHours = prompt("Please enter the number of hours the technicians have to get the jobs done:");
 
+//I added a line to calculate the number of jobs each tech needs to do per hour. It is the number of jobs divided by number of hours they have then divided by the number of techs available.
 var numberOfJobsPerHour = numberOfJobs/numberOfHours/numberOfTechs;
 
