@@ -18,6 +18,7 @@ var numberOfJobsPerHour = numberOfJobs/numberOfHours/numberOfTechs;
 //I added an alert that gives the user the answer for how many jobs the techs need to do per hour.
 alert("The technicians need to do" + " " + numberOfJobsPerHour + " " + "jobs per hour.");
 
+//Added the answer for the console as well.
 console.log("The technicians need to do" + " " + numberOfJobsPerHour + " " + "jobs per hour.");
 
 
