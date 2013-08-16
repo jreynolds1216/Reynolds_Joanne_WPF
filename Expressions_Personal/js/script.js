@@ -7,3 +7,5 @@ var cats = prompt("We are calculating the number of cans of cat food needed to f
 
 //Added a prompt to input how many cans of food each cat eats per day.
 var cansOfFood = prompt("Please enter the number of cans each cat eats per day:");
+
+var numberOfDays = prompt("Please enter the number of days for which food is needed:");
