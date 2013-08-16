@@ -10,3 +10,5 @@ var cansOfFood = prompt("Please enter the number of cans each cat eats per day:"
 
 //Added a prompt asking for user to input number of days cats will need food.
 var numberOfDays = prompt("Please enter the number of days for which food is needed:");
+
+var numberOfCansNeeded = cats*cansOfFood*numberOfDays;
