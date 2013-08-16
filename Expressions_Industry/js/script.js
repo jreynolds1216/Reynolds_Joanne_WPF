@@ -8,3 +8,5 @@ var numberOfTechs = prompt("We are calculating the number of jobs the technician
 
 //I added a prompt to enter how many jobs we need to get done.
 var numberOfJobs = prompt("Please enter the number of jobs that need to be done:");
+
+var numberOfHours = prompt("Please enter the number of hours the technicians have to get the jobs done:");
