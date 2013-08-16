@@ -9,11 +9,16 @@ var two = prompt("Please enter the number of minutes for Day 2:")*1;
 
 var three = prompt("Please enter the number of minutes for Day 3:")*1;
 
+//Created an array for the total minutes
+var totalMinutes = [one, two, three];
+
 //Added all three days together first then divided by 3 to get the average.
-var totalMinutes = (one+two+three)/3;
+var total = totalMinutes[0] + totalMinutes[1] + totalMinutes[2];
+
+total/=3;
 
 //Created an alert for the user to see the average number of minutes.
-alert("Your dog spent an average of" + " " + totalMinutes + " " + "minutes outside in three days.")
+alert("Your dog spent an average of" + " " + total + " " + "minutes outside in three days.")
 
 //Created a message with answer for the console.
-console.log("Your dog spent an average of" + " " + totalMinutes + " " + "minutes outside in three days.");
+console.log("Your dog spent an average of" + " " + total + " " + "minutes outside in three days.");
