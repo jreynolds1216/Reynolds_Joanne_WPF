@@ -21,4 +21,6 @@ if (grass >= 5 && rain === "no"){
 //Added the last statement for if the grass is less than 5 inches the user doesn't need to cut the grass. It doesn't matter if it is raining or not.
 }else{
     console.log("You don't need to cut the grass. Go take a nap instead.");
+//Added an alert to get the message that the user doesn't need to cut the grass and can take a nap instead.
+    alert("You don't need to cut the grass. Go take a nap instead.");
 }
