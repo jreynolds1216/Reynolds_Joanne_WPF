@@ -50,6 +50,13 @@ if (username == "Joanne" && password == "Reynolds"){
 
 //Problem #4 Movie Ticket Prices
 
-var movieTime = prompt("Please enter the movie time:");
+var timeOfDay = prompt("Was the movie in the morning or evening?");
+var movieTime = prompt("Please enter the hour of the movie:");
 var age = prompt("Please enter your age:");
+
+if (timeOfDay === "evening" && movieTime >= 3 && movieTime <= 5){
+    console.log("The ticket price is $7.");
+}
+
+
 
