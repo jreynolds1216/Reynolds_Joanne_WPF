@@ -5,3 +5,7 @@
 //Create a prompt for the user to enter how heavy the car is(in pounds).
 
 var weight = prompt("We are going to determine if your vehicle can go on the lift in our service deparment. Enter your vehicle's weight in pounds:");
+
+//Create a prompt for the user to enter how long the car is(in feet).
+
+var length = prompt("Please enter your vehicle's length in feet:");
