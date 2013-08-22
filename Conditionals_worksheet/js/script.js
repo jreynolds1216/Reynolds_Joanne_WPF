@@ -11,3 +11,25 @@ if (weight >= 250) {
 }else{
     console.log("The competitor needs to gain some weight!");
 }
+
+
+//Problem #2 Celsius to Fahrenheit Converter
+
+//Givens= degrees (in F or C) & unit= a string holding an F or a C
+//Message for console "The temperature is x degrees Fahrenheit."  OR  "The temperature is x degrees Celsius."
+
+var degrees = prompt("Please enter the degrees.");
+
+var degreeType = prompt("Enter f to convert to Fahrenheit or c to convert to Celsius.");
+
+var f = degrees * 9/5 +32;
+var c = (degrees - 32) * 5/9;
+
+
+if (degreeType === f){
+    console.log("The temperature is" + " " + f + " " + "degrees Fahrenheit.");
+}else{
+    console.log("The temperature is" + " " + c + " " + "degrees Celsius.");
+}
+
+
