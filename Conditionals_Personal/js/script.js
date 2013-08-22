@@ -4,3 +4,6 @@
 
 //Added a prompt explaining what we are calculating to the user and asking them how tall their grass is in inches.
 var grass = prompt("We are going to determine if we need to cut the grass today or not. Enter the height of the grass in inches:");
+
+//Added a prompt asking the user to enter whether or not it is raining.
+var rain = prompt("Is it raining today? Enter yes or no.");
