@@ -14,4 +14,7 @@ if (grass >= 5 && rain === "no"){
 //Added an else if statement for if the grass is still equal to or more than 5 but it is raining outside. The user will get a message saying they can't cut the grass because it is raining.
 }else if (grass >= 5 && rain === "yes"){
     console.log("You can't cut your grass today. It is raining outside.");
+//Added the last statement for if the grass is less than 5 inches the user doesn't need to cut the grass. It doesn't matter if it is raining or not.
+}else{
+    console.log("You don't need to cut the grass. Go take a nap instead.");
 }
