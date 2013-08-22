@@ -11,4 +11,7 @@ var rain = prompt("Is it raining today? Enter yes or no.");
 //Added a conditional for if the grass is greater than or equal to 5 inches and it isn't raining. The user will get a message saying they need to cut the grass.
 if (grass >= 5 && rain === "no"){
     console.log("You need to cut the grass today! Your yard looks like a jungle.");
+//Added an else if statement for if the grass is still equal to or more than 5 but it is raining outside. The user will get a message saying they can't cut the grass because it is raining.
+}else if (grass >= 5 && rain === "yes"){
+    console.log("You can't cut your grass today. It is raining outside.");
 }
