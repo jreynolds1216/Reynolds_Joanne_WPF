@@ -22,7 +22,7 @@ var degrees = prompt("Please enter the degrees.");
 
 var degreeType = prompt("Enter f to convert to Fahrenheit or c to convert to Celsius.");
 
-var f = degrees * 9/5 +32;
+var f = degrees * 9/5 + 32;
 var c = (degrees - 32) * 5/9;
 
 
@@ -33,3 +33,19 @@ if (degreeType === f){
 }
 
 
+
+//Problem #3 Check the login
+
+var username = "Joanne";
+var username = prompt("Please enter your username.");
+
+var password = "Reynolds";
+var password = prompt("Please enter your password.");
+
+if (username == "Joanne" && password == "Reynolds"){
+    console.log("Welcome" + " " + username);
+}else if (! username == "Joanne"){
+    console.log("User not found. Try again");
+}else{
+    console.log("Password does not match our records.");
+}
