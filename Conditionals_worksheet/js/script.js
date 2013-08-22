@@ -22,12 +22,12 @@ var degrees = prompt("Please enter the degrees.");
 
 var degreeType = prompt("Enter f to convert to Fahrenheit or c to convert to Celsius.");
 
-var f = degrees * 9/5 + 32;
+var fah = degrees * 9/5 + 32;
 var c = (degrees - 32) * 5/9;
 
 
-if (degreeType === f){
-    console.log("The temperature is" + " " + f + " " + "degrees Fahrenheit.");
+if (degreeType === 'f'){
+    console.log("The temperature is" + " " + fah + " " + "degrees Fahrenheit.");
 }else{
     console.log("The temperature is" + " " + c + " " + "degrees Celsius.");
 }
@@ -36,10 +36,7 @@ if (degreeType === f){
 
 //Problem #3 Check the login
 
-var username = "Joanne";
 var username = prompt("Please enter your username.");
-
-var password = "Reynolds";
 var password = prompt("Please enter your password.");
 
 if (username == "Joanne" && password == "Reynolds"){
@@ -49,3 +46,10 @@ if (username == "Joanne" && password == "Reynolds"){
 }else{
     console.log("Password does not match our records.");
 }
+
+
+//Problem #4 Movie Ticket Prices
+
+var movieTime = prompt("Please enter the movie time:");
+var age = prompt("Please enter your age:");
+
