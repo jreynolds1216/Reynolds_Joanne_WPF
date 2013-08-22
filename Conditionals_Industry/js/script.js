@@ -17,3 +17,6 @@ var vehicle;
 vehicle = (weight < 4000 && length < 20) ? "Your car can go on the lift." : "Sorry, you must service your vehicle elsewhere.";
 console.log(vehicle);
 
+//Added an alert so that a box pops up for the user to see if their car can go on the lift or not. This way they don't have to check the console.
+alert(vehicle);
+
