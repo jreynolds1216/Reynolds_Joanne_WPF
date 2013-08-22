@@ -11,6 +11,5 @@ var weight = prompt("Please enter your dog's weight in pounds:");
 //Added food as a string so that I can use it in my ternary.
 var food;
 
-
-
-
+//Added a ternary in which if the dog is 7 or less OR weighs 50 or more pounds then he needs two cups of food per day. If not, the dog only needs one cup of food.
+food = (age <= 7 || weight >= 50) ? "Your dog needs 2 cups of food per day." : "Your dog needs only 1 cup of food per day.";
