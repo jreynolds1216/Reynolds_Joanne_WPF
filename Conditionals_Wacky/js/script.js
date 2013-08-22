@@ -8,4 +8,9 @@ var age = prompt("We will be calculating how much you need to feed your dog in c
 //Added a  prompt for the user to input the dog's weight in pounds.
 var weight = prompt("Please enter your dog's weight in pounds:");
 
+//Added food as a string so that I can use it in my ternary.
+var food;
+
+
+
 
