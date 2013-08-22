@@ -15,3 +15,5 @@ var food;
 food = (age <= 7 || weight >= 50) ? "Your dog needs 2 cups of food per day." : "Your dog needs only 1 cup of food per day.";
 //Added a message that will show in the console with the results.
 console.log(food);
+//Added an alert so the user doesn't have to check the console for the results if they don't want to. It will also pop up in an alert box.
+alert(food);
