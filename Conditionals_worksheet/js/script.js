@@ -58,6 +58,8 @@ if (timeOfDay === "evening" && movieTime >= 3 && movieTime <= 5){
     console.log("The ticket price is $7.");
 }else if (age >= 55){
     console.log("The ticket price is $7.");
+}else{
+    console.log("The ticket price is $12.");
 }
 
 
