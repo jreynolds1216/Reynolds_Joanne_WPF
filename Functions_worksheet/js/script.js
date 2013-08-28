@@ -17,13 +17,18 @@ console.log("The circumference of the circle is" + " " + total);
 
 
 //Problem #2 Stung!
+//Calculate the number of bee stings it takes to kill a human.
 
+//Declared beeStings as variable.
 var beeStings = totalStings(75);
 
+//Created function to calculate problem.
 function totalStings(pounds){
     var stings = pounds * 8.666666667;
     return stings;
 }
+
+//Printed message to the console with the answer.
 console.log("It takes" + " " + beeStings + " " + "to kill a human.");
 
 
