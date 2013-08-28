@@ -18,3 +18,12 @@ console.log("The circumference of the circle is" + " " + total);
 
 //Problem #2 Stung!
 
+var beeStings = totalStings(75);
+
+function totalStings(pounds){
+    var stings = pounds * 8.666666667;
+    return stings;
+}
+console.log("It takes" + " " + beeStings + " " + "to kill a human.");
+
+
