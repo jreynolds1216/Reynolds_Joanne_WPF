@@ -1,6 +1,6 @@
 //Joanne Reynolds August 27, 2013 Functions worksheet
 
-
+//Problem #1 Circumference
 //Function to calculate the circumference of a circle.
 
 //Declared total as variable.
@@ -12,7 +12,9 @@ function totalCirc(radius){
     return circ;
 }
 //Printed message with the answer to the console.
-console.log(total);
+console.log("The circumference of the circle is" + " " + total);
 
 
+
+//Problem #2 Stung!
 
