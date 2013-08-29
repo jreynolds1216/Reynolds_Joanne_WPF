@@ -8,10 +8,13 @@ function milk(milkDate, milkOpened){
 
     if(milkDate === "yes"){
         console.log("Ew, throw the milk away. You cannot drink it.");
+        alert("Ew, throw the milk away. You cannot drink it");
     }else if(milkOpened === "yes"){
         console.log("This milk probably isn't fresh. I would advise you not to drink it.");
+        alert("This milk probably isn't fresh. I would advise you not to drink it.");
     }else{
         console.log("The milk is fresh and the date is current. Pour yourself a giant glass!");
+        alert("The milk is fresh and the date is current. Pour yourself a giant glass!");
     }
 }
 
