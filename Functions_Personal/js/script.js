@@ -13,3 +13,6 @@ var trip = function(people, perDay, days){
 
 //Created a variable for my function. Same thing as last problem. I could not get it to work without doing this?
 var vacationTrip = trip();
+
+//Created a message for the console letting the user know how many sandwiches we will need per day on the trip.
+console.log("We will need" + " " + vacationTrip + " " + "sandwiches per day for the trip.");
