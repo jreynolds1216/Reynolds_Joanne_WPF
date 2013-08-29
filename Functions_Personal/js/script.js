@@ -16,3 +16,6 @@ var vacationTrip = trip();
 
 //Created a message for the console letting the user know how many sandwiches we will need per day on the trip.
 console.log("We will need" + " " + vacationTrip + " " + "sandwiches per day for the trip.");
+
+//Created an alert so user can immediately have the answer instead of viewing the console.
+alert("We will need" + " " + vacationTrip + " " + "sandwiches per day for the trip.");
