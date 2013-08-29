@@ -15,5 +15,4 @@ function milk(milkDate, milkOpened){
     }
 }
 
-var drinkingMilk = milk();
-console.log(drinkingMilk);
+milk();
