@@ -13,3 +13,4 @@ function serviceDept(typeOfCar, year){
 
 }
 console.log(service);
+alert(service);
